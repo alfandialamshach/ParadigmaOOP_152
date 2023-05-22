@@ -9,5 +9,11 @@ private:
 	float nilai;
 
 	public
-		mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai)
+		mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) { //memier in
+		//definisi
+	}
+
+	~mahasiswa() {
+		cout <<
+	}
 };
