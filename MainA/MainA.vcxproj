@@ -129,6 +129,10 @@
   <ItemGroup>
     <ClCompile Include="MainA.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anak.h" />
+    <ClInclude Include="ibu.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

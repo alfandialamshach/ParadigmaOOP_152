@@ -16,4 +16,7 @@ public:
 	void tambahkanAnak(anak*);
 	void cetakAnak();
 };
+void ibu::tambahkanAnak(anak* pAnak) {
+	daftar_anak.push_back(pAnak);
+}
 #endif // !IBU_H
