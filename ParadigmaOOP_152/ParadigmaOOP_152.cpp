@@ -8,12 +8,14 @@ private:
 	string nama;
 	float nilai;
 
-	public
-		mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) { //memier in
+public:
+	mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) { //memier in
 		//definisi
 	}
 
 	~mahasiswa() {
-		cout <<
+		cout << "Id    = " << id << endl;
+		cout << "Nama  = " << nama << endl;
+		cout << "Nilai = " << nilai << endl;
 	}
 };
